@@ -1,0 +1,22 @@
+{
+  "action": {
+    "default_area": "navbar",
+    "default_icon": {
+      "32": "icons/dummy_icon.png"
+    },
+    "default_title": "LinkedIn Company Filter"
+  },
+  "author": "Me",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["index.js"]
+    }
+  ],
+  "icons": {
+    "32": "icons/dummy_icon.png"
+  },
+  "manifest_version": 3,
+  "name": "LinkedIn Company Filter",
+  "version": "0.1"
+}
