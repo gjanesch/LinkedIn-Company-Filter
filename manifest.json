@@ -13,6 +13,8 @@
       "js": ["index.js"]
     }
   ],
+  "description": "Extension to hide jobs on LinkedIn posted by undesired companies.",
+  "homepage_url": "https://github.com/gjanesch/LinkedIn-Company-Filter",
   "icons": {
     "32": "icons/dummy_icon.png"
   },
